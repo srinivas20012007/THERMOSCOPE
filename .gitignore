@@ -1,0 +1,200 @@
+﻿# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+ENV/
+srini/
+thermoscope_env/
+.venv/
+venv.bak/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# DATA FILES (Large files - DON'T PUSH!)
+# ============================================
+# Raw data - too large for git
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.nc
+*.nc4
+*.hdf
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+
+# ============================================
+# MODELS (Large binary files)
+# ============================================
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pb
+*.tflite
+*.joblib
+*.pickle
+*.pkl
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/*.ipynb  # Keep notebooks in git
+*.nbconvert.ipynb
+
+# ============================================
+# ENVIRONMENT VARIABLES (Sensitive!)
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.env
+
+# ============================================
+# SECRETS & KEYS (NEVER push these!)
+# ============================================
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+secrets/
+credentials/
+*.secret
+service-account.json
+*.json
+
+# ============================================
+# LOGS & TEMPORARY FILES
+# ============================================
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# IDE FILES
+# ============================================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# ============================================
+# MLflow
+# ============================================
+mlruns/
+mlflow.db
+
+# ============================================
+# TEST COVERAGE
+# ============================================
+.coverage
+htmlcov/
+.tox
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+
+# ============================================
+# DATABASES
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# OS GENERATED
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# DOCKER
+# ============================================
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# ============================================
+# FRONTEND / NODE
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+dist/
+build/
+*.min.js
+*.min.css
+
+# ============================================
+# BACKUP FILES
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
